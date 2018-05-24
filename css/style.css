@@ -1,0 +1,128 @@
+@charset "UTF-8"
+*{
+  margin:0;
+  padding: 0;
+  outline: none;
+}
+body{
+  width: 100;
+  height: 600px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:yellow;
+  background: url(img/fon5.jpg) ;
+  font-size: 1em;
+  font-family: "Segoe UI",sans-serif;
+  line-height: 1.4;
+
+}
+article {
+  width: 73%;
+  margin-left: 23%;
+  margin-top: -18%;
+  color: black;
+  background-color: rgb(245,221,51);
+
+}
+header{
+  display: block;
+  position: top;
+  width: 100%;
+  background: url(img/br.jpg) no-repeat x;
+  text-align: center;
+  
+  line-height: 10px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+
+}
+header a{
+  margin-right: 90%;
+}
+/*Форма реєстрації */
+.content{
+  position: relative;
+  top: -220px;
+  border: 2px solid  rgb(245,221,51);
+  margin-left: 600px;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(245,221,51) ;
+  color: black;
+  border-radius: 10px;
+  box-shadow:
+   4px 4px 5px 5px,
+   -4px -4px 5px 5px;
+
+  
+}
+h3 {
+  text-align: center;
+}
+
+input
+{
+  float: right;
+  border-radius: 10px;
+}
+button {
+border-radius: 10px;
+background-color: black;
+border: 5px solid black;
+color: rgb(245,221,51) ;
+cursor: pointer;
+
+}
+h5
+{
+  text-align: center;
+}
+/*
+.twit {display:inline-block;vertical-align:bottom;width:24px;height:24px;margin:0 20px 0px  0;padding:0;outline:none;background:url(img/tw.png) -0px 0 no-repeat;}
+.vkon {display:inline-block;vertical-align:bottom;width:24px;height:24px;margin:18px 20px 0px 0;paddding:0;outline:none;background:url(img/vk.png) -24px 0 no-repeat;}
+.face {display:inline-block;vertical-align:bottom;width:24px;height:24px;margin:0 20px 0px  0;padding:0;outline:none;background:url(img/face.png) -48px 0 no-repeat}*/
+.navigation {
+   list-style: none; 
+   width: 150px;  
+   left:3%;
+   margin-top: 400px;
+
+   position: relative;
+   background-color: rgb(245,221,51);
+   border: 10px solid black; 
+}
+.navigation li {
+   margin-top: 5px; 
+   font-family: Verdana, Arial, Helvetica, sans-serif; 
+   font-size: 14px; 
+   
+}
+.navigation li a {
+   display: block; 
+   padding: 4px 15px;  
+   background: black; 
+   color:rgb(245,221,51); 
+   text-decoration: none; 
+   position: relative; 
+}
+.navigation li a:hover {
+   background:rgb(49,124,59); 
+   color: white;  
+}
+
+
+
+.footer {  
+
+
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98%;
+    min-height: 80px;
+    margin-bottom: -5%;
+    background: url(https://3.imimg.com/data3/MM/MD/MY-3170351/1-500x500.jpg)  ;
+    color: black;
+    text-align: center;
+    
+  }
